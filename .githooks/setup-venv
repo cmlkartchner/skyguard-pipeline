@@ -1,7 +1,9 @@
 #!/bin/bash
 echo "Setting up dev venv..."
 
-python3.9 -m venv "${LOCAL_DIR}/venv"
+python="/c/Program Files/Side Effects Software/Houdini 19.5.640/bin/hython.exe"
+
+"${python}" -m venv "${LOCAL_DIR}/venv"
 source "${LOCAL_DIR}/venv/bin/activate"
 
 pip install --upgrade pip

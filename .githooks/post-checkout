@@ -2,7 +2,7 @@
 
 set -e
 
-PROD_DIR=/groups/dungeons/pipeline
+PROD_DIR=/groups/skyguard/pipeline
 LOCAL_DIR=$(git rev-parse --show-toplevel)
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
